@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+    
+<hibernate-configuration>
+    <session-factory>        
+        <mapping class="com.sanjay31321.sys.model.User" />
+        <mapping class="com.sanjay31321.sys.model.Course" />
+        <mapping class="com.sanjay31321.sys.model.Question" />
+        <mapping class="com.sanjay31321.sys.model.Answer" />
+        <mapping class="com.sanjay31321.sys.model.Question_Set" />
+        <mapping class="com.sanjay31321.sys.model.User_Role" />
+        <mapping class="com.sanjay31321.sys.model.Subject" />
+        <mapping class="com.sanjay31321.sys.model.Feedback" />
+        <mapping class="com.sanjay31321.sys.model.Course_Subject" />
+        <mapping class="com.sanjay31321.sys.model.Student_Course" />
+        <mapping class="com.sanjay31321.sys.model.Feedback_Done" />
+        <mapping class="com.sanjay31321.sys.model.Teacher_Subject" />
+    </session-factory>         
+</hibernate-configuration>

@@ -1,0 +1,141 @@
+.margin-left-right {
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.breadcrumb {
+  padding: 7px 10px;
+  padding-top:-15px;
+  
+  padding-left:15px;
+  padding-right:20px;
+  
+  margin: 0 0 18px;
+  margin-top:-15px;
+  
+  
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  
+}
+.breadcrumb li {
+  display: inline-block;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.breadcrumb .divider {
+  padding: 0 5px;
+  color: #999999;
+}
+.breadcrumb .active a {
+  color: #333333;
+}
+
+
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.relative {
+position: relative;
+}
+
+.travelDetails {
+color: #000;
+list-style-type: none;
+}
+
+.mb10 {
+margin-bottom: 10px;
+}
+
+ul {
+padding: 0;
+margin: 0;
+}
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+.clearfix:before, .clearfix:after {
+display: table;
+line-height: 0;
+content: "";
+}
+
+.clearfix:after {
+clear: both;
+}
+
+.flL {
+float: left;
+}
+
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+.travelDetails label {
+color: #000;
+display: block;
+margin-bottom: 3px;
+font-size: 13px;
+}
+
+label {
+cursor: default;
+}
+
+.ui form segment{
+  outline:none;
+  border:none;
+}
+
+.blog-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+.blog-header {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+.blog-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 35px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 10px;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 20px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.align-center{
+	text-align: center;
+}
